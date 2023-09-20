@@ -1,6 +1,21 @@
-
 .statistics {
-    background-color: tomato;
+    text-align: center;
+
 }
-/* 
-Колір фону елемента статистики в оформленні можна пропустити або створити функцію для генерації випадкового кольору. */
+
+.statList {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+
+  .label {
+    display: flex;
+    
+  }
+
+  .percentage {
+font-size: 1.2em;
+  }
+}
+
+

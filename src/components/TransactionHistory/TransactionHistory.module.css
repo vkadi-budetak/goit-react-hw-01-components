@@ -1,0 +1,11 @@
+.transactionHistory {
+table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 2px solid grey;
+}
+
+
+.infiList {
+    text-align: center;
+}

@@ -1,6 +1,8 @@
+import css from './TransactionHistory.module.css'
+
 export default function TransactionHistory({ items }) {
   return (
-    <table className="transaction-history">
+    <table className={css.transactionHistory}>
       <thead>
         <tr>
           <th>Type</th>
@@ -9,7 +11,7 @@ export default function TransactionHistory({ items }) {
         </tr>
       </thead>
 
-      <tbody>
+      <tbody className={css.infList}>
         {items.map(item => (
           <tr key={item.id}>
             <td>{item.type}</td>
