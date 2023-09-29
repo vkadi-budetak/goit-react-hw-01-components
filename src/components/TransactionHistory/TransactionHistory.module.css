@@ -6,6 +6,17 @@ table-layout: fixed;
 }
 
 
-.infiList {
-    text-align: center;
+.tableHead {
+  & th {
+    background-color: burlywood;
+  }
+}
+
+
+.tableBody {
+  text-align: center;
+
+  & tr:nth-child(even) {
+    background-color: cadetblue;
+  }
 }

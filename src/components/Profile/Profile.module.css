@@ -23,25 +23,26 @@
     height: 20px;
   }
 
-  .tag, .location {
+  .tag,
+  .location {
     color: rgb(55, 53, 53);
   }
 }
 
 .stats {
+  display: flex;
+  margin: 30px 15px;
+  gap: 60px;
+  justify-content: center;
+  border: 2px solid #120303;
+
+  & .label {
     display: flex;
-    margin: 30px 15px;
-    gap: 60px;
-    justify-content: center;
-    border: 2px solid #120303;
-
-    .label {
-        display: flex;
-        color: rgb(55, 53, 53);
-        
-    }
-    .quantity {
-        font-weight: bold;
-
-    }
+    color: rgb(55, 53, 53);
+  }
+  
+  & .quantity {
+    font-weight: bold;
+  }
 }
+
